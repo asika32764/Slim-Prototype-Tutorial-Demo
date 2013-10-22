@@ -1,0 +1,23 @@
+/* GLOBAL */
+body {
+    margin-top: 50px;
+}
+
+fieldset {
+    margin-bottom: 30px;
+}
+
+
+/* LAYOUT */
+
+#main-body {
+    padding-top: 40px;
+}
+
+
+/* FORM */
+
+#eng-name-form .form-control {
+    width: auto;
+}
+
