@@ -1,8 +1,18 @@
 {# templates/index.twig #}
 
-{% extends 'html.twig' %}
+{% extends '_html.twig' %}
 
 {% block body %}
-<h1>Nick Fury:</h1>
-<code>You think you're the only hero in the world?</code>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h1>Nick Fury:</h1>
+            <code>You think you're the only hero in the world?</code>
+            
+            <hr />
+            
+            <a href="index.php/blog/articles">Go to Articles</a>
+        </div>
+    </div>
+</div>
 {% endblock %}
