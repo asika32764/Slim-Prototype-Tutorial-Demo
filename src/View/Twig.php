@@ -18,7 +18,7 @@ class Twig extends SlimView
             return $this->twig;
         }
         
-        $loader = new \Twig_Loader_Filesystem($this->getTemplatePathname());
+        $loader = new \Twig_Loader_Filesystem($this->getTemplatesDirectory());
         
         $twig = new \Twig_Environment($loader);
         
